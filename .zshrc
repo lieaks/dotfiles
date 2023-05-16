@@ -8,7 +8,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 source $ZSH/oh-my-zsh.sh
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 alias bat='bat -pp --color=always --theme="Monokai Extended Origin" '
 alias ls='lsd -Ah '
 alias mkdir='mkdir -p '
