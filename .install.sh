@@ -45,3 +45,13 @@ brew install --cask font-fira-code
 # Mac App Store Apps
 echo "Installing Mac App Store Apps..."
 mas install 1480933944 #Vimari
+
+
+# macOS Settings
+echo "Changing macOS defaults..."
+defaults write com.apple.dock autohide -bool true
+defaults write NSGlobalDomain KeyRepeat -int 1
+
+# Start Services
+echo "Starting Services (grant permissions)..."
+brew services start skhd
